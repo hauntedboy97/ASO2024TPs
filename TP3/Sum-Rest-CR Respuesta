@@ -1,0 +1,14 @@
+1.a) No indica el tiempo de ejecucion.
+
+1.b) El valor final del acumulador toma solo uno de los valores de la operacion.
+
+1.c) Al iniciar ambos hilos en simultaneo a la maxima velocidad posible,
+     el primer proceso que entre a la zona critica sera el que modifique el valor
+     final del acumulador. Es decir, el valor dependera de la velocidad relativa de los hilos.
+
+1.d) Para evitar una race condition, podrian agregarse variables condicionales.
+     Por ejemplo, un hilo puede esperar a que una condición específica sea verdadera 
+     antes de acceder a un recurso compartido.
+
+
+

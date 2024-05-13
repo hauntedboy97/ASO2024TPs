@@ -1,0 +1,11 @@
+1.a) El tiempo de respuesta de cada proceso sigue siendo similar respecto del programa sin hilos.
+
+1.b) No, no se completan en orden establecido, sino en orden de finalizacion.
+
+1.c) Una aplicación de edición de imágenes que permite a los usuarios aplicar filtros, 
+     ajustar el brillo, la saturación y realizar otras operaciones en tiempo real. 
+     Al utilizar hilos múltiples, la aplicación puede distribuir la carga de trabajo entre varios hilos de ejecución. 
+     Por ejemplo, un hilo podría encargarse de cargar y guardar la imagen, otro hilo podría aplicar filtros y ajustes, 
+     y otro hilo podría manejar la interfaz de usuario y la renderización de la imagen resultante.
+     De esta manera, mientras un hilo está ocupado realizando una tarea, otros hilos pueden continuar trabajando en 
+     paralelo en otras partes de la aplicación.

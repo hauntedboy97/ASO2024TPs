@@ -1,0 +1,18 @@
+1.a) No son predecibles pero si manipulables ya que se puede asignarsele 
+     un valor al tiempo de ejecucion.
+
+1.b) Un ejemplo clasico puede ser el renderizado de gráficos en tiempo 
+     real en videojuegos o simulaciones 3D. En estos casos, 
+     el proceso de renderizado está optimizado para aprovechar al máximo 
+     los recursos de la tarjeta gráfica y la CPU, con el objetivo de generar 
+     imágenes lo más rápidamente posible para mantener una experiencia fluida 
+     y en tiempo real para el usuario.
+
+1.c) El reconocimiento de voz en sistemas de asistentes virtuales como Siri, 
+     el asistente de google o Alexa. Aunque la velocidad de procesamiento puede 
+     afectar la velocidad con la que se llevan a cabo ciertas partes del proceso 
+     de reconocimiento de voz, como la conversión de señales de audio a texto, 
+     la velocidad de respuesta final del sistema no depende exclusivamente de la 
+     velocidad de la CPU. La calidad del microfono, el ruido ambiental, 
+     la claridad de la pronunciación o, la velocidad de la red, entre otros factores, 
+     pueden influir en la precisión y velocidad con la que se realiza el reconocimiento de voz.

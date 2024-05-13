@@ -1,0 +1,6 @@
+1.a) El valor final acumulador se volvio un valor fijo (0), 
+     ya que el valor global se bloquea luego de que un hilo lo tome para modificarlo
+     y recien cuando ese primer hilo termina el proceso, se libera para que lo tome el
+     proximo hilo y realizar la modificacion nuevamente.
+
+1.b) El tiempo de ejecucion no esta mostrado en el codigo.
